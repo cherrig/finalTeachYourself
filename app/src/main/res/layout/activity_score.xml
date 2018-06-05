@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="@color/grey"
+    tools:context="project.teachyourself.ScoreActivity">
+
+    <FrameLayout
+        android:id="@+id/frameProgressBarScore"
+        android:layout_width="match_parent"
+        android:layout_height="3dp">
+
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:indeterminateOnly="true"
+            android:scaleY="2"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:clipToPadding="false">
+
+        <TextView
+            android:id="@+id/textScoreLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="@string/score_label"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chartScore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textTimeAverageLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/time_average_label"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/chartTimeAverage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonLeaveScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/button_leave_score"
+        android:layout_weight="1"
+        android:background="@color/white"
+        />
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:override="true">Teach Yourself</string>
+
+    <string name="label_profile">Profil</string>
+    <string name="label_statistics">Historique parties</string>
+    <string name="label_logout">Déconnexion</string>
+    <string name="label_about">À propos</string>
+
+    <string name="category1">Calcul mental</string>
+    <string name="category2">Mot du jour</string>
+    <string name="category3">Association d\'image</string>
+    <string name="category4">Phrase dans l\'ordre</string>
+    <string name="category5">Phonétique</string>
+    <string name="category6">Grammaire</string>
+    <string name="category7">Conjugaison</string>
+
+    <string name="category1_description">Résoudre des calculs de tête</string>
+    <string name="category2_description">Associer la définition au bon mot</string>
+    <string name="category3_description">Trouver la bonne image</string>
+    <string name="category4_description">Remettre la phrase dans l\'ordre</string>
+    <string name="category5_description">Exercices de phonétique</string>
+    <string name="category6_description">Exercices de grammaire</string>
+    <string name="category7_description">Exercices de conjugaison</string>
+
+    <string name="level1">Niveau 1</string>
+    <string name="level2">Niveau 2</string>
+    <string name="level3">Niveau 3</string>
+
+
+    <string name="not_implemented">Pas encore implémenté</string>
+    <string name="timer">%d</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Incorrect</string>
+    <string name="too_late">Trop tard</string>
+
+    <string name="position_label">%d / %d</string>
+    <string name="no_score">N/A</string>
+    <string name="score_label">Score</string>
+    <string name="time_average_label">Temps de réponse moyen</string>
+    <string name="score_percent">%d%%</string>
+    <string name="button_leave_score">OK</string>
+
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+
+    <string name="action_settings">Paramètres</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="prompt_name">Prénom</string>
+    <string name="prompt_age">Âge</string>
+    <string name="button_sign_in">Se connecter</string>
+    <string name="button_register">S\'inscrire</string>
+
+    <string name="error_invalid_email">Email invalide</string>
+    <string name="error_invalid_password">Mot de passe invalide</string>
+    <string name="error_field_required">Le champs est obligatoire</string>
+    <string name="error_age_invalid">L\'âge est trop grand</string>
+    <string name="permission_rationale">"Autorisez l'accès aux contacts pour completer l'email."
+    </string>
+
+    <string name="statistics_navigation_personal">Personnel</string>
+    <string name="statistics_navigation_global">Global</string>
+
+    <string name="stat_total">Total</string>
+    <string name="chart_time_average">%.1f\nsec</string>
+
+    <string name="about">Teach Yourself - Application</string>
+
+    <string name="music">Musique</string>
+    <string name="music1">Piste 1</string>
+    <string name="music2">Piste 2</string>
+    <string name="music3">Piste 3</string>
+
+    <string name="image_description_app_logo">App logo</string>
+
+    <string name="toast_saved">Enregistré</string>
+    <string name="toast_error">Erreur: %s</string>
+    <string name="toast_problem">Problème: %s</string>
+    <string name="toast_canceled">Annulé</string>
+
+    <string name="progress_register">Inscription&#8230;</string>
+    <string name="progress_login">Connection&#8230;</string>
+    <string name="progress_createQuestion">Creation de la question&#8230;</string>
+
+    <string name="mode_parent">Mode parent</string>
+    <string name="admin">Parent</string>
+    <string name="nav_questions">Questions</string>
+
+    <string name="spinner_category_hint">Category</string>
+    <string name="spinner_level_hint">Niveau</string>
+    <string name="spinner_correction_hint">Correction</string>
+
+    <string name="prompt_question">Question</string>
+    <string name="prompt_answer1">Réponse 1</string>
+    <string name="prompt_answer2">Réponse 2</string>
+    <string name="prompt_answer3">Réponse 3</string>
+    <string name="prompt_answer4">Réponse 4</string>
+
+    <string-array name="category_array">
+        <item>Calcul mental</item>
+        <item>Mot du jour</item>
+        <item>Association d image</item>
+        <item>Phrase dans l ordre</item>
+        <item>Phonétique</item>
+        <item>Grammaire</item>
+        <item>Conjugaison</item>
+    </string-array>
+
+    <string-array name="level_array">
+        <item>Niveau 1</item>
+        <item>Niveau 2</item>
+        <item>Niveau 3</item>
+    </string-array>
+
+    <string-array name="correction_array">
+        <item>Réponse 1</item>
+        <item>Réponse 2</item>
+        <item>Réponse 3</item>
+        <item>Réponse 4</item>
+    </string-array>
+
+    <string name="button_create_question">Ajouter</string>
+    <string name="image">Image</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.teachyourself.QuestionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:entries="@array/category_array"
+            android:prompt="@string/spinner_category_hint"/>
+
+        <Spinner
+            android:id="@+id/spinner_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:entries="@array/level_array"
+            android:prompt="@string/spinner_level_hint"/>
+
+        <EditText
+            android:id="@+id/editQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_question"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/editAnswer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_answer1"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/editAnswer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_answer2"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/editAnswer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_answer3"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/editAnswer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_answer4"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_margin="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_correction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:entries="@array/correction_array"
+            android:prompt="@string/spinner_correction_hint"/>
+
+        <Switch
+            android:id="@+id/switchQuestionImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/image" />
+
+        <Button
+            android:id="@+id/buttonCreateQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_create_question"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

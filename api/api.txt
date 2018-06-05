@@ -1,0 +1,89 @@
+Pour les réponse succès 200, erreur n'importe
+Content-type: application/json tout le temps
+
+Inscription:
+	POST /new
+	body:
+		email String
+		name String
+		age int
+		password String
+		admin boolean (true pour compte parent)
+	Réponse body: String (n'importe je recupere pas, juste "ok")
+	
+Connection:
+	POST /connect
+	body:
+		email String
+		password String
+	Réponse body: String (l'email)
+	
+Récuperer l'utilisateur
+	GET /user?email=example@epitech.eu
+	Réponse body: 
+		email String
+		name String
+		age int
+		password String
+		score int (score total)
+		image String (url image profile)
+		admin boolean (true pour compte parent)
+		
+Récuperer statistics
+	GET /stat (stat global de tout les utilisateurs)
+	GET /stat?email=example@epitech.eu
+	Réponse body:
+		[{
+			title String (category, ex: Calcul mental)
+			score int (nbr de réponse correct)
+			questions int (nbr de questions)
+			timeAvg float (tps de réponse moyen)
+		},
+		...
+		]
+		
+Enregistrer un score
+	POST /save_score
+	body:
+		email String
+		title String (nom category)
+		score int
+		questions int (nb de question)
+		timeAvg float (tps de réponse moyen)
+	Réponse body: String (je check pas)
+	
+Enregistrer une photo de profile
+	POST /save_image
+	body:
+		email String
+		image String (encodé en base 64)
+	Réponse body:
+		email String,
+		name String,
+		age int,
+		password String,
+		score int,
+		image String (url nouvelle image)
+		
+Récuperer les questions
+	GET /questions/{category}/{level} (ex: /questions/Calcul mental/1)
+	Réponse body:
+		question String (question ou url image)
+		image boolean (true si question est une image)
+		rep1 String
+		rep2 String
+		rep3 String
+		rep4 String
+		correction int (numero réponse correct [1..4])
+		
+Ajouter question
+	POST /questions/{category}/{level}
+	body:
+		question String
+		rep1 String,
+		rep2 String,
+		rep3 String,
+		rep4 String,
+		correction int
+	Réponse body: String (je check pas)
+		

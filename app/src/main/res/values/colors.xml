@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2dbe60</color>
+    <color name="colorPrimaryDark">#1e7f40</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="grey">#D3D3D3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="wrong">#993232</color>
+    <color name="good">#017d46</color>
+
+    <!-- Category color for the main menu -->
+    <color name="c1">#49b480</color>
+    <color name="c2">#37c495</color>
+    <color name="c3">#41cbc7</color>
+    <color name="c4">#4d9cd0</color>
+    <color name="c5">#4874a8</color>
+    <color name="c6">#5b538a</color>
+    <color name="c7">#544267</color>
+
+    <!-- Category shadow color for the main menu -->
+    <color name="c1_darker">#245a40</color>
+    <color name="c2_darker">#1b624a</color>
+    <color name="c3_darker">#1d6765</color>
+    <color name="c4_darker">#1d5271</color>
+    <color name="c5_darker">#243c57</color>
+    <color name="c6_darker">#2f294a</color>
+    <color name="c7_darker">#2c2036</color>
+
+</resources>

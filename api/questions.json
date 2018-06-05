@@ -1,0 +1,584 @@
+{
+  "Calcul mental": {
+    "1": [
+      {
+        "question": "2 + 2",
+        "responses": ["1", "2", "Paris", "4"],
+        "correction": 4
+      },
+      {
+        "question": "8 - 3",
+        "responses": ["5", "Bleu", "3", "4"],
+        "correction": 1
+      },
+      {
+        "question": "7 + 7 + 6",
+        "responses": ["Z", "20", "14", "21"],
+        "correction": 2
+      },
+      {
+        "question": "8 + 9",
+        "responses": ["Oui", "16", "17", "18"],
+        "correction": 3
+      },
+      {
+        "question": "14 + 15",
+        "responses": ["Lundi", "29", "28", "31"],
+        "correction": 2
+      },
+      {
+        "question": "9 * 11",
+        "responses": ["119", "109", "99", "Kiwi"],
+        "correction": 3
+      },
+      {
+        "question": "19 + 23",
+        "responses": ["40", "42", "44", "R"],
+        "correction": 2
+      },
+      {
+        "question": "36 - 39",
+        "responses": ["-3", "-4", "4", "Rouge"],
+        "correction": 1
+      },
+      {
+        "question": "88 * 2",
+        "responses": ["160", "166", "176", "D"],
+        "correction": 3
+      },
+      {
+        "question": "22 * 2 * 2",
+        "responses": ["2222", "Ah!", "88", "44"],
+        "correction": 3
+      }
+    ],
+    "2": [
+      {
+        "question": "9 * 99",
+        "responses": ["98765", "891", "981", "81"],
+        "correction": 2
+      },
+      {
+        "question": "8 * 8 + 9 * 9",
+        "responses": ["145", "657", "451", "8899"],
+        "correction": 1
+      },
+      {
+        "question": "9 * 12 + 3",
+        "responses": ["109", "111", "145", "110"],
+        "correction": 2
+      },
+      {
+        "question": "12 + 13 + 14 - 2",
+        "responses": ["37", "34", "32", "39"],
+        "correction": 1
+      },
+      {
+        "question": "123 + 456 + 789",
+        "responses": ["1368", "1369", "1358", "1378"],
+        "correction": 1
+      },
+      {
+        "question": "321 + 489 + 832",
+        "responses": ["1630", "1642", "1654", "1628"],
+        "correction": 2
+      },
+      {
+        "question": "10000 - 7854",
+        "responses": ["2136", "2166", "2156", "2146"],
+        "correction": 4
+      },
+      {
+        "question": "398 - 320 + 414",
+        "responses": ["422", "412", "492", "442"],
+        "correction": 3
+      },
+      {
+        "question": "90 - 9 * 9 + 9",
+        "responses": ["-18", "738", "18", "1458"],
+        "correction": 3
+      },
+      {
+        "question": "23 * 12 - 23 - 12",
+        "responses": ["261", "529", "-529", "241"],
+        "correction": 4
+      }
+    ],
+    "3": [
+      {
+        "question": "9(9 + 19) + 19",
+        "responses": ["271", "172", "712", "217"],
+        "correction": 1
+      },
+      {
+        "question": "5 * 11 + (9 * 9 + 19)",
+        "responses": ["155", "551", "515", "111"],
+        "correction": 1
+      },
+      {
+        "question": "134 * 99",
+        "responses": ["13222", "13244", "13266", "13288"],
+        "correction": 3
+      },
+      {
+        "question": "253 * 29",
+        "responses": ["7117", "7227", "7337", "7447"],
+        "correction": 3
+      },
+      {
+        "question": "3(55 + 66)",
+        "responses": ["353", "363", "373", "383"],
+        "correction": 2
+      },
+      {
+        "question": "1212 + 2121 + 3131 + 1313",
+        "responses": ["7676", "7777", "7878", "7979"],
+        "correction": 2
+      },
+      {
+        "question": "98 - 54 - 32 + 59 + 45 + 85",
+        "responses": ["203", "200", "202", "201"],
+        "correction": 4
+      },
+      {
+        "question": "7² + 5² + 4²",
+        "responses": ["87", "88", "89", "90"],
+        "correction": 4
+      },
+      {
+        "question": "4(5 + 3 - 19) - 100",
+        "responses": ["-144", "-140", "-134", "-154"],
+        "correction": 1
+      },
+      {
+        "question": "2 - (45 * 2) * -2",
+        "responses": ["180", "182", "184", "186"],
+        "correction": 2
+      }
+    ]
+  },
+  "Mot du jour": {
+    "1": [
+      {
+        "question": "Personne qui commande à des employés",
+        "responses": ["Patron", "Papa", "Pardon", "Pâtes"],
+        "correction": 1
+      },
+      {
+        "question": "Qui ne dure ou ne doit durer qu'un temps limité",
+        "responses": ["Temporaire", "Téméraire", "Transfert", "Tempête"],
+        "correction": 1
+      },
+      {
+        "question": "Qui est inhabituel, qu'on s'explique mal",
+        "responses": ["Bilan", "Bizarre", "Bijou", "Billet"],
+        "correction": 2
+      },
+      {
+        "question": "Qui existe depuis très longtemps",
+        "responses": ["Annuaire", "Ancien", "Antisocial", "Anchois"],
+        "correction": 2
+      },
+      {
+        "question": "Le temps à venir, le future",
+        "responses": ["Apiculteur", "Avion", "Avenir", "Avenue"],
+        "correction": 3
+      },
+      {
+        "question": "Maître au Moyen-Âge",
+        "responses": ["Seisme", "Songeur", "Seigneur", "Soudeur"],
+        "correction": 3
+      },
+      {
+        "question": "Mettre fin à une action",
+        "responses": ["Centrer", "Circuler", "Censurer", "Cesser"],
+        "correction": 4
+      },
+      {
+        "question": "Prendre la décision de",
+        "responses": ["Démarrer", "Déjeuner", "Déformer", "Décider"],
+        "correction": 4
+      },
+      {
+        "question": "Avoir la vie, vivre",
+        "responses": ["Exister", "Éteindre", "Égoutter", "Effacer"],
+        "correction": 1
+      },
+      {
+        "question": "Laisser aller son imagination, faire des rêves",
+        "responses": ["Rugir", "Rêver", "Régner", "Ranger"],
+        "correction": 2
+      }
+    ],
+    "2": [
+      {
+        "question": "Rendre plus mince, plus fin",
+        "responses": ["Amenuiser", "Amener", "Applaudir", "Appuyer"],
+        "correction": 1
+      },
+      {
+        "question": "Changer complètement de forme, d'état",
+        "responses": ["Se métamorphoser", "Se mélanger", "Se méfier", "Se mystifier"],
+        "correction": 1
+      },
+      {
+        "question": "Durer, rester malgré tout",
+        "responses": ["Péter", "Persister", "Pétrir", "Perturber"],
+        "correction": 2
+      },
+      {
+        "question": "Disparaître sans laisser de traces; Perdre connaissance",
+        "responses": ["S'éblouir", "S'évanouir", "S'embrigader", "S'époustouffler"],
+        "correction": 2
+      },
+      {
+        "question": "Pousser des cris hostiles contre quelqu'un",
+        "responses": ["Muet", "Puer", "Huer", "Humidifier"],
+        "correction": 3
+      },
+      {
+        "question": "Remporter la victoire",
+        "responses": ["Tripoter", "Trier", "Triompher", "Transiter"],
+        "correction": 3
+      },
+      {
+        "question": "Être amoureux",
+        "responses": ["Avoir un bouton", "Avoir la belotte", "Avoir le beignet", "Avoir le béguin"],
+        "correction": 4
+      },
+      {
+        "question": "Ustensile de cuisine percé de plusieurs petits trous pour égoutter",
+        "responses": ["Estropier", "Espadon", "Esperluette", "Écumoire"],
+        "correction": 4
+      },
+      {
+        "question": "Assaisonner de poivre",
+        "responses": ["Poivrer", "Pincer", "Pardonner", "Poigner"],
+        "correction": 1
+      },
+      {
+        "question": "Ensemble des sommes d'argent disponible en caisse ou sur des comptes",
+        "responses": ["Trépied", "Trésorerie", "Tréfonds", "Tremperie"],
+        "correction": 2
+      },
+      {
+        "question": "Priver quelq'un de son emploi de sa fonction",
+        "responses": ["Lier", "Limer", "Licencier", "Lister"],
+        "correction": 3
+      }
+    ],
+    "3": [
+      {
+        "question": "User, polir une surface par frottement",
+        "responses": ["Abraser", "Abriter", "Abréger", "Abroger"],
+        "correction": 1
+      },
+      {
+        "question": "Incapacité d'être ému ou de réagir",
+        "responses": ["Apathie", "Apothicaire", "Arménie", "Apothéose"],
+        "correction": 1
+      },
+      {
+        "question": "Quelqu'un qui doit de l'argent",
+        "responses": ["Devin", "Débiteur", "Démolisseur", "Défrayeur"],
+        "correction": 2
+      },
+      {
+        "question": "Qui ne peut quitter son lit",
+        "responses": ["Graphomane", "Grabataire", "Graveuse", "Gravitique"],
+        "correction": 2
+      },
+      {
+        "question": "Soldat à la solde d'un gouvernement étranger",
+        "responses": ["Méristème", "Merveille", "Mercenaire", "Mercurochrome"],
+        "correction": 3
+      },
+      {
+        "question": "Tendance vers ce qui satisfait les penchants naturels",
+        "responses": ["Apiculture", "Appréhender", "Appétence", "Apitoiement"],
+        "correction": 3
+      },
+      {
+        "question": "Malhonnête et sordide; Accompli pour voler",
+        "responses": ["Crépusculaire", "Crédibilisation", "Crédule", "Crapuleux"],
+        "correction": 4
+      },
+      {
+        "question": "Espèce localisée sur une aire restreinte; Qui sévit constamment dans un pays, un milieu",
+        "responses": ["Endoctrineur", "Endive", "Endoscopie", "Endémique"],
+        "correction": 4
+      },
+      {
+        "question": "Formé de graisse",
+        "responses": ["Adipeux", "Adieu", "Audacieux", "Arrogant"],
+        "correction": 1
+      },
+      {
+        "question": "Qui a les moyens de payer",
+        "responses": ["Solide", "Solvable", "Solitaire", "Solaire"],
+        "correction": 2
+      },
+      {
+        "question": "Défense publique de quelqu'un ou de quelque chose",
+        "responses": ["Apostrophe", "Astronomie", "Apologie", "Astrologie"],
+        "correction": 3
+      }
+    ]
+  },
+  "Association d'image": {
+    "1": [
+      {
+        "question": "quiz_voiture",
+        "image": true,
+        "responses": ["Avion", "Moto", "Train", "Voiture"],
+        "correction": 4
+      },
+      {
+        "question": "quiz_moto",
+        "image": true,
+        "responses": ["Avion", "Moto", "Train", "Voiture"],
+        "correction": 2
+      },
+      {
+        "question": "quiz_avion",
+        "image": true,
+        "responses": ["Avion", "Moto", "Train", "Voiture"],
+        "correction": 1
+      },
+      {
+        "question": "quiz_train",
+        "image": true,
+        "responses": ["Avion", "Moto", "Train", "Voiture"],
+        "correction": 3
+      },
+      {
+        "question": "quiz_velo",
+        "image": true,
+        "responses": ["Vélo", "Trotinette", "Chaise", "Voiture"],
+        "correction": 1
+      },
+      {
+        "question": "quiz_pomme",
+        "image": true,
+        "responses": ["Pomme", "Moto", "Train", "Voiture"],
+        "correction": 1
+      },
+      {
+        "question": "quiz_maison",
+        "image": true,
+        "responses": ["Pomme", "Maison", "Chien", "Voiture"],
+        "correction": 2
+      },
+      {
+        "question": "quiz_chaise",
+        "image": true,
+        "responses": ["Pomme", "Maison", "Chaise", "Voiture"],
+        "correction": 3
+      },
+      {
+        "question": "quiz_banane",
+        "image": true,
+        "responses": ["Pomme", "Voiture", "Chaise", "Banane"],
+        "correction": 4
+      },
+      {
+        "question": "quiz_coco",
+        "image": true,
+        "responses": ["Pomme", "Voiture", "Noix de coco", "Banane"],
+        "correction": 3
+      }
+    ],
+    "2": [
+      {
+        "question": "quiz_bateau",
+        "image": true,
+        "responses": ["Bateau", "Voiture", "Chien", "Banane"],
+        "correction": 1
+      },
+      {
+        "question": "quiz_chapeau",
+        "image": true,
+        "responses": ["Chapeau", "Chat", "Chien", "Lunette"],
+        "correction": 1
+      },
+      {
+        "question": "quiz_chat",
+        "image": true,
+        "responses": ["Chien", "Chat", "Chapeau", "Chaussure"],
+        "correction": 2
+      },
+      {
+        "question": "quiz_chaussure",
+        "image": true,
+        "responses": ["Chat", "Chaussure", "Chien", "Pantalon"],
+        "correction": 2
+      },
+      {
+        "question": "quiz_chien",
+        "image": true,
+        "responses": ["Lune", "Voiture", "Chien", "Chapeau"],
+        "correction": 3
+      },
+      {
+        "question": "quiz_ecran",
+        "image": true,
+        "responses": ["Bateau", "Lion", "Ecran", "Lune"],
+        "correction": 3
+      },
+      {
+        "question": "quiz_lion",
+        "image": true,
+        "responses": ["Lune", "Chat", "Chien", "Lion"],
+        "correction": 4
+      },
+      {
+        "question": "quiz_lune",
+        "image": true,
+        "responses": ["Lunette", "Pantalon", "Chaussure", "Lune"],
+        "correction": 4
+      },
+      {
+        "question": "quiz_lunette",
+        "image": true,
+        "responses": ["Lunette", "Lune", "Voiture", "Pantalon"],
+        "correction": 1
+      },
+      {
+        "question": "quiz_pantalon",
+        "image": true,
+        "responses": ["Chaussure", "Pantalon", "Chat", "Banane"],
+        "correction": 2
+      }
+    ],
+    "3": [
+      {
+        "question": "quiz_arbalete",
+        "image": true,
+        "responses": ["Arbalète", "Epee", "Guitare", "Banane"],
+        "correction": 1
+      },
+      {
+        "question": "quiz_batterie",
+        "image": true,
+        "responses": ["Batterie", "Couteau", "Chat", "Guitare"],
+        "correction": 1
+      },
+      {
+        "question": "quiz_couteau",
+        "image": true,
+        "responses": ["Epee", "Couteau", "Stylo", "Violon"],
+        "correction": 2
+      },
+      {
+        "question": "quiz_epee",
+        "image": true,
+        "responses": ["Couteau", "Epee", "Tractopelle", "Banane"],
+        "correction": 2
+      },
+      {
+        "question": "quiz_guitare",
+        "image": true,
+        "responses": ["Violon", "Pantalon", "Guitare", "Lion"],
+        "correction": 3
+      },
+      {
+        "question": "quiz_radiateur",
+        "image": true,
+        "responses": ["Chaussure", "Tasse", "Radiateur", "Tractopelle"],
+        "correction": 3
+      },
+      {
+        "question": "quiz_stylo",
+        "image": true,
+        "responses": ["Radiateur", "Epee", "Lunette", "Stylo"],
+        "correction": 4
+      },
+      {
+        "question": "quiz_tasse",
+        "image": true,
+        "responses": ["Bouteille", "Arbalète", "Lion", "Tasse"],
+        "correction": 4
+      },
+      {
+        "question": "quiz_tractopelle",
+        "image": true,
+        "responses": ["Tractopelle", "Voiture", "Guitare", "Batterie"],
+        "correction": 1
+      },
+      {
+        "question": "quiz_violon",
+        "image": true,
+        "responses": ["Guitare", "Violon", "Epee", "Pomme"],
+        "correction": 2
+      }
+    ]
+  },
+  "Phrase dans l\'ordre": {
+    "1": [
+      {
+        "question": "La bougie est en ___",
+        "responses": ["sir", "cire", "sire", "cirre"],
+        "correction": 2
+      },
+      {
+        "question": "La voiture est de couleur ___",
+        "responses": ["bleue", "bleu", "bleus", "bleues"],
+        "correction": 1
+      },
+      {
+        "question": "J' ___ mangé une pizza",
+        "responses": ["est", "es", "ai", "ait"],
+        "correction": 3
+      },
+      {
+        "question": "Je suis ___ soeur",
+        "responses": ["ça", "s'a", "ca", "sa"],
+        "correction": 4
+      }
+    ],
+    "2": [
+      {
+        "question": "Je me suis fait du mauvais ___",
+        "responses": ["sens", "sans", "cent", "sang"],
+        "correction": 4
+      },
+      {
+        "question": "J'ai acheté des ___",
+        "responses": ["chrisantème", "chrysanthème", "chrysenthème", "chrisenteme"],
+        "correction": 2
+      },
+      {
+        "question": "Je suis allé au musée des ___ arts",
+        "responses": ["beaux", "beau", "beaus", "bau"],
+        "correction": 1
+      },
+      {
+        "question": "Sa fille s'est ___",
+        "responses": ["coupé", "couper", "coupée", "coupait"],
+        "correction": 3
+      }
+    ],
+    "3": [
+      {
+        "question": "Ma mère est ___",
+        "responses": ["kinésitérapeute", "khinésitérapeute", "khinéshitérapheute", "kinésitérapheute"],
+        "correction": 1
+      },
+      {
+        "question": "Ce mot n'a pas la bonne ___",
+        "responses": ["Éthymologie", "Étymologie", "étyhmologie", "étymoologie"],
+        "correction": 2
+      },
+      {
+        "question": "Ce prix est ___",
+        "responses": ["Exorbhitant", "éxorbittant", "exorbitant", "hexorbitant"],
+        "correction": 3
+      },
+      {
+        "question": "Je suis atteint de ___",
+        "responses": ["Presbytie", "pressbitie", "presbiscie", "prebicie"],
+        "correction": 1
+      }
+    ]
+  }
+}

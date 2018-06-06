@@ -9,7 +9,7 @@
     <string name="category1">Calcul mental</string>
     <string name="category2">Mot du jour</string>
     <string name="category3">Association d\'image</string>
-    <string name="category4">Phrase dans l\'ordre</string>
+    <string name="category4">Compléter la phrase</string>
     <string name="category5">Phonétique</string>
     <string name="category6">Grammaire</string>
     <string name="category7">Conjugaison</string>
@@ -17,7 +17,7 @@
     <string name="category1_description">Résoudre des calculs de tête</string>
     <string name="category2_description">Associer la définition au bon mot</string>
     <string name="category3_description">Trouver la bonne image</string>
-    <string name="category4_description">Remettre la phrase dans l\'ordre</string>
+    <string name="category4_description">Compléter la phrase</string>
     <string name="category5_description">Exercices de phonétique</string>
     <string name="category6_description">Exercices de grammaire</string>
     <string name="category7_description">Exercices de conjugaison</string>
